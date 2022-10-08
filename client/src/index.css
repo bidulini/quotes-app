@@ -1,0 +1,204 @@
+.test {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    190deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(75, 78, 109, 1) 48%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  width: 100%;
+  height: 750px;
+  font-family: "Roboto";
+  color: #dad9eb;
+}
+.logout-button {
+  background-color: #2fa9ce;
+  text-decoration: none;
+  border: no border;
+}
+.navbar {
+  width: 100%;
+  background-color: #2fa9ce;
+  text-align: center;
+  height: 50px;
+  display: flex;
+  align-items: center;
+}
+.navlist {
+  list-style-type: none;
+  float: left;
+  margin: auto;
+  padding: 0px;
+}
+.navlist a {
+  color: #dad9eb;
+  text-decoration: none;
+}
+.navlist li {
+  font-weight: 500;
+  font-size: 25px;
+  float: left;
+  line-height: 50px;
+  vertical-align: middle;
+  text-align: center;
+  width: 100px;
+  height: 50px;
+}
+
+.navlist li:hover {
+  background-color: #4b81ad;
+  cursor: pointer;
+}
+.logout-button:hover {
+  background-color: #4b81ad;
+  cursor: pointer;
+}
+
+.quotes-container {
+  width: 100%;
+  height: 800px;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    190deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(75, 78, 109, 1) 48%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.quote-author {
+  font-size: 15px;
+  color: #4d322e;
+  margin-top: 5px;
+}
+.title {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 100px;
+}
+.container {
+  display: flex;
+  width: 550px;
+  height: 200px;
+}
+.arrows {
+  display: flex;
+  font-size: 10px;
+  flex-direction: column;
+  justify-content: center;
+  width: 10%;
+  height: 100%;
+  margin: auto;
+}
+.percents {
+  font-size: 20px;
+  color: aqua;
+  font-weight: 500;
+}
+.arrows:hover {
+  cursor: pointer;
+}
+.quote-content {
+  margin: auto;
+  font-weight: 500;
+  font-size: 20px;
+  width: 80%;
+  height: 80%;
+  background-color: rgb(255, 242, 226);
+  color: #814c43;
+  font-family: "Roboto";
+  border: 1px solid #723b31;
+  border-radius: 5px;
+}
+
+.about-us {
+  padding: 10px;
+  font-family: "Roboto";
+  font-size: 20px;
+  color: rgb(66, 226, 218);
+  width: 40%;
+  text-align: center;
+  line-height: 30px;
+  border: 1px solid rgb(221, 154, 176);
+  border-radius: 5px;
+}
+.logout-button {
+  color: #dad9eb;
+  font-size: 25px;
+  font-family: roboto;
+  text-decoration: none;
+  border: 0px;
+}
+.login-warning {
+  font-family: "Roboto";
+  text-align: center;
+  margin-top: 50px;
+}
+.link {
+  color: #dad9eb;
+  font-size: 30px;
+  font-family: Roboto;
+  text-decoration: none;
+}
+.link:hover {
+  color: #959acf;
+}
+.about-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+input {
+  width: 300px;
+  height: 50px;
+  border-radius: 5px;
+  border: 2px solid #dad9eb;
+}
+input:hover {
+  color: #807eb9;
+}
+.login-container {
+  width: 100%;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.home {
+  width: 100%;
+  height: 400px;
+  text-align: center;
+  margin-top: 50px;
+}
+.home img {
+  width: 500px;
+  height: 500px;
+}
+.home h1 {
+  color: #959acf;
+  font-family: Roboto;
+}
+.login-container button {
+  background-color: #959acf;
+  border: none;
+  color: #dad9eb;
+  font-weight: bold;
+  padding: 15px 32px;
+  font-size: 16px;
+}
+
+.login-container button:hover {
+  background-color: #a19fc5;
+  cursor: pointer;
+  background: linear-gradient(
+    284deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(149, 154, 207, 1) 51%,
+    rgba(218, 217, 235, 1) 100%
+  );
+}
